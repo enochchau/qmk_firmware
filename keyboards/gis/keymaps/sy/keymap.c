@@ -39,9 +39,9 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     ),
     [_LYMOD] = LAYOUT( \
         _______, _______, _______, _______, _______, _______,        _______, _______, _______, _______, _______, _______,\
-        _______, KC_QUES, _______, KC_EQL,  KC_CIRC, KC_AT,          KC_TILD, KC_UNDS, KC_PIPE, MO(_LYOPEN),KC_PLUS,_______,\
+        _______, KC_QUES, _______, KC_EQL,  KC_CIRC, KC_AT,          KC_TILD, KC_UNDS, KC_PIPE, OSL(_LYOPEN),KC_PLUS,_______,\
         _______, KC_GRV,  KC_ASTR, KC_MINS, KC_SLSH, _______,        KC_HASH, _______, KC_BSLS, KC_DLR,  _______, _______,\
-        _______, _______, _______, MO(_LYCLOSE),   _______, KC_EXLM,        KC_PERC, KC_AMPR, _______, _______, _______, _______,\
+        _______, _______, _______, OSL(_LYCLOSE),   _______, KC_EXLM,        KC_PERC, KC_AMPR, _______, _______, _______, _______,\
                  _______, _______, _______, _______, _______,        _______, _______, _______, _______, _______  \
     ),
     [_LYOPEN] = LAYOUT( \
