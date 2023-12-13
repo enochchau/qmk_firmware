@@ -1,3 +1,9 @@
-# The Drag Scroll keymap for Ploopyco Trackball
+# Enoch's keymap
 
-This is a sample keymap showing off what you can do with the custom callback drivers. 
+The device is PCB rev 1.006.
+
+Compile it:
+
+```sh
+qmk compile -kb ploopyco/trackball/rev1_005 -km ec965 
+```
