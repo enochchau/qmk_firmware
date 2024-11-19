@@ -57,9 +57,6 @@
 #ifndef ENCODER_BUTTON_COL
 #    define ENCODER_BUTTON_COL 0
 #endif
-#ifndef PLOOPY_DRAGSCROLL_DENOMINATOR
-#    define PLOOPY_DRAGSCROLL_DENOMINATOR 8
-#endif
 
 keyboard_config_t keyboard_config;
 uint16_t          dpi_array[] = PLOOPY_DPI_OPTIONS;
