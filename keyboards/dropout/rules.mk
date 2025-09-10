@@ -1,6 +1,5 @@
 # https://docs.qmk.fm/#/getting_started_make_guide?id=rulesmk-options
 # MCU name
-MCU = atmega32u4
 
 # Bootloader selection
 #   Teensy       halfkay
@@ -10,11 +9,8 @@ MCU = atmega32u4
 #   QMK DFU      qmk-dfu
 #   ATmega32A    bootloadHID
 #   ATmega328P   USBasp
-BOOTLOADER = caterina #change this if you flash DFU on your pro-micro
 
 # Build Options
-BOOTMAGIC_ENABLE = yes	# Virtual DIP switch configuration(+1000)
-MOUSEKEY_ENABLE = yes	# Mouse keys(+4700)
 EXTRAKEY_ENABLE = yes	# Audio control and System control(+450)
 CONSOLE_ENABLE = no	# Console for debug(+400)
 COMMAND_ENABLE = no    # Commands for debug and configuration
@@ -26,5 +22,4 @@ AUDIO_ENABLE = no
 KEY_LOCK_ENABLE = yes
 RGBLIGHT_ENABLE = no
 BLUETOOTH_ENABLE = no
-
-ENCODER_ENABLE = yes
+ENCODER_MAP_ENABLE = yes
