@@ -48,9 +48,9 @@ bool led_update_user(led_t led_state){
 
 #if defined(ENCODER_MAP_ENABLE)
 const uint16_t PROGMEM encoder_map[][NUM_ENCODERS][NUM_DIRECTIONS] = {
-    [_BASE] = { ENCODER_CCW_CW(KC_VOLD, KC_VOLU)  },
-    [_LIGHT] = { ENCODER_CCW_CW(KC_VOLD, KC_VOLU)  },
-    [_EMPTY] = { ENCODER_CCW_CW(KC_VOLD, KC_VOLU)  },
+    [_BASE] = { ENCODER_CCW_CW(KC_VOLU, KC_VOLD)  },
+    [_LIGHT] = { ENCODER_CCW_CW(KC_TRNS, KC_TRNS)  },
+    [_EMPTY] = { ENCODER_CCW_CW(KC_TRNS, KC_TRNS)  },
 };
 #endif
 
